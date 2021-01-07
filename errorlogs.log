@@ -1,0 +1,14 @@
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "src/main.py", line 55, in main
+    my_items, life_counter = get_room_activity(direction,rooms,directions,items,puzzles,answers,codes,life_counter,my_items)
+  File "src/main.py", line 19, in get_room_activity
+    idx = rooms.index(direction)
+ValueError: 'n' is not in list
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "src/main.py", line 55, in main
+    my_items, life_counter = get_room_activity(direction,rooms,directions,items,puzzles,answers,codes,life_counter,my_items)
+  File "src/main.py", line 19, in get_room_activity
+    idx = rooms.index(direction)
+ValueError: 'East' is not in list
